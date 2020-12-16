@@ -1,0 +1,54 @@
+{1: ['departure location', 'departure station', 'departure platform', 'departure track', 'departure date', 'departure time', 'arrival station', 'arrival platform', 'arrival track', 'class', 'duration', 'seat', 'wagon', 'zone'], 
+2: ['departure location', 'departure station', 'departure platform', 'departure track', 'departure date', 'departure time', 'arrival location', 'arrival station', 'arrival platform', 'arrival track', 'class', 'duration', 'price', 'route', 'row', 'seat', 'train', 'type', 'wagon', 'zone'], 
+3: ['arrival platform', 'arrival track', 'class', 'duration', 'seat', 'wagon', 'zone'], 
+4: ['departure location', 'departure station', 'departure platform', 'departure track', 'departure date', 'departure time', 'arrival location', 'arrival station', 'arrival platform', 'arrival track', 'class', 'duration', 'route', 'seat', 'train', 'type', 'wagon', 'zone'], 
+5: ['departure location', 'departure station', 'departure platform', 'departure track', 'departure date', 'departure time', 'arrival station', 'arrival platform', 'arrival track', 'class', 'duration', 'route', 'seat', 'train', 'type', 'wagon', 'zone'], 
+6: ['departure location', 'departure station', 'departure platform', 'departure track', 'departure date', 'departure time', 'arrival station', 'arrival platform', 'arrival track', 'class', 'duration', 'route', 'seat', 'wagon', 'zone'], 
+7: ['departure location', 'departure station', 'departure platform', 'departure track', 'departure date', 'departure time', 'arrival platform', 'arrival track', 'class', 'duration', 'seat', 'wagon', 'zone'], 
+8: ['zone'], 
+9: ['arrival track', 'class', 'zone'], 
+10: ['arrival track', 'class', 'duration', 'seat', 'zone'], 
+11: ['departure location', 'departure station', 'departure platform', 'departure track', 'arrival platform', 'arrival track', 'class', 'duration', 'seat', 'train', 'wagon', 'zone'], 
+12: ['departure location', 'departure station', 'departure platform', 'departure track', 'departure time', 'arrival platform', 'arrival track', 'class', 'duration', 'seat', 'wagon', 'zone'], 
+13: ['departure station', 'departure platform', 'departure track', 'arrival platform', 'arrival track', 'class', 'duration', 'seat', 'wagon', 'zone'], 
+14: ['arrival platform', 'arrival track', 'class', 'duration', 'seat', 'zone'], 
+15: ['departure location', 'departure station', 'departure platform', 'departure track', 'departure date', 'departure time', 'arrival location', 'arrival station', 'arrival platform', 'arrival track', 'class', 'duration', 'price', 'route', 'seat', 'train', 'type', 'wagon', 'zone'], 
+16: ['departure track', 'arrival platform', 'arrival track', 'class', 'duration', 'seat', 'wagon', 'zone'], 
+17: ['arrival track', 'class', 'duration', 'zone'], 
+18: ['departure station', 'departure track', 'arrival platform', 'arrival track', 'class', 'duration', 'seat', 'wagon', 'zone'], 
+19: ['class', 'zone'], 
+20: ['departure location', 'departure station', 'departure platform', 'departure track', 'departure date', 'departure time', 'arrival station', 'arrival platform', 'arrival track', 'class', 'duration', 'route', 'seat', 'train', 'wagon', 'zone']}
+
+
+
+
+2: [, , , , '', '', 'arrival location', '', , , , , 'price', '', 'row', , '', '', , ], 
+4: [, , , , '', '', 'arrival location', '', , , , , '', , '', '', , ], 
+5: [, , , , '', '', '', , , , , '', , '', '', , ], 
+15: [, , , , '', '', 'arrival location', '', , , , , 'price', '', , '', '', , ], 
+ 
+20: [, , , , '', '', '', , , , , '', , '', , ']}
+
+
+1: arrival station
+2: row
+3: wagon
+4: arrival location
+5: type
+6: route
+7: departure date
+8: zone
+9: arrival track
+10: seat
+*11 departure location
+12: departure time
+13: departure platform
+14: arrival platform
+15: price
+16: departure track
+17 duration
+18: departure station
+19: class
+20: train
+
+need 7, 11, 12, 13, 16, 18
