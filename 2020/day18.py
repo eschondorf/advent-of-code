@@ -147,7 +147,10 @@ if __name__ == "__main__":
     smpl_tst2 = "1 + 2 * 3 + 4 * 5 + 6"
     smpl_tst3 = "5 * 9 * (7 * 3 * 3 + 9 * 3 + (8 + 6 * 4))"
     inpt = util.read_strs("inputs/day18_input.txt", sep = "\n")
+    print("TESTING")
     util.call_and_print(complicated_solver, smpl_tst3, True)
-    util.call_and_print(task_solver, inpt, False)
     util.call_and_print(simple_solver_task2, smpl_tst2)
+    print("\nTASK 1")
+    util.call_and_print(task_solver, inpt, False)
+    print("\nTASK 2")
     util.call_and_print(task_solver, inpt, True)
