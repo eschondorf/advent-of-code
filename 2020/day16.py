@@ -1,9 +1,11 @@
 '''
 Day 16
+https://adventofcode.com/2020/day/16
 '''
 import util
 import csv
 import pandas as pd
+
 
 def task1(tickets, valid_range):
     '''
