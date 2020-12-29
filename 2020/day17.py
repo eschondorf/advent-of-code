@@ -1,7 +1,7 @@
 '''
 Day 17
 I did this keeping track of the entire grid. A more efficient method
-would probably have been to just keep track fo the location of the active sites
+would probably have been to just keep track for the location of the active sites
 '''
 
 import util
