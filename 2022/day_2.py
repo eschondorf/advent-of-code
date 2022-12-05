@@ -20,7 +20,6 @@ def solver(inpt):
         rv2 +=  result
         rv2 += (elfint - 1 + [2, 0, 1][result/3]) % 3 + 1
 
-        
     return rv1, rv2
 
 
@@ -30,7 +29,6 @@ def solver(inpt):
 if __name__ == "__main__":
     inpt = util.read_strs("inputs/day_2_input.txt", sep = "\n")
     tst = util.read_strs("inputs/day_2_test.txt", sep = "\n")
-    print(tst)
 
     print("TASK 1 and 2")
     util.call_and_print(solver, inpt)
