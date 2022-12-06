@@ -39,7 +39,7 @@ def solver(inpt):
 if __name__ == "__main__":
     inpt = util.read_strs("inputs/day_1_input.txt", sep = "\n")
     tst = util.read_strs("inputs/day_1_test.txt", sep = "\n")
-    print(tst)
+
     print("TASK 1 and 2")
     util.call_and_print(solver, inpt)
     util.call_and_print(solver, tst)
