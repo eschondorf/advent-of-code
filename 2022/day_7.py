@@ -3,7 +3,6 @@ import math
 import time
 import copy
 import pprint
-from operator import itemgetter
 
 def solver(inpt):
     rv1 = 0
@@ -30,15 +29,11 @@ def solver(inpt):
         elif line_lst[0].isdigit():
             filesize[current_dir] += int(line_lst[0])
 
-
     rec_helper(subdir, filesize, '/')
 
     for key in filesize.keys():
         if filesize[key] < 100000:
-            #print(key)
-            #print(filesize[key])
             rv1 += filesize[key]
-    
     
     avaliable_space = 70000000 - filesize['/']
     need_to_remove = 30000000 - avaliable_space
@@ -64,13 +59,6 @@ def rec_helper(subdir, filesize, dir):
             addl_size += rec_helper(subdir, filesize, prefix + '/' + elt)
         filesize[dir] += addl_size
         return filesize[dir]
-
-
-
-    return
-
-
-
 
 
 if __name__ == "__main__":
