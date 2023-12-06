@@ -1,4 +1,3 @@
-
 function solver(arr, part2 = false)
     rv = 1
     if ! part2
@@ -7,8 +6,6 @@ function solver(arr, part2 = false)
             ub, lb = quad_eq(time[i], dist[i])
             rv *= (ub - lb+1)
         end
-    
-       
     end
     if part2
         time, dist = parse_arr(arr)
@@ -16,8 +13,6 @@ function solver(arr, part2 = false)
         new_dist = parse(Int, join(string.(dist)))
         ub, lb = quad_eq(new_time, new_dist)
         rv = Int(ub - lb+1)
-
-
     end
    return rv
 end
